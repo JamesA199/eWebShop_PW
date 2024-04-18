@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-18T10:47:58 MDT" name="RegressionSuite1" finished-at="2024-04-18T10:48:16 MDT" duration-ms="18103">
+    <groups>
+    </groups>
+    <test started-at="2024-04-18T10:47:58 MDT" name="Login tests" finished-at="2024-04-18T10:48:04 MDT" duration-ms="5677">
+      <class name="com.eWebShop_PW.tests.LoginPageTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eWebShop_PW.tests.LoginPageTests@2f67a4d3]" started-at="2024-04-18T10:47:58 MDT" name="setup" finished-at="2024-04-18T10:48:03 MDT" duration-ms="4879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginNavigation_Test()[pri:0, instance:com.eWebShop_PW.tests.LoginPageTests@2f67a4d3]" started-at="2024-04-18T10:48:03 MDT" name="LoginNavigation_Test" finished-at="2024-04-18T10:48:03 MDT" duration-ms="398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginNavigation_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.eWebShop_PW.tests.LoginPageTests@2f67a4d3]" started-at="2024-04-18T10:48:03 MDT" name="tearDown" finished-at="2024-04-18T10:48:04 MDT" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eWebShop_PW.tests.LoginPageTests -->
+    </test> <!-- Login tests -->
+    <test started-at="2024-04-18T10:47:58 MDT" name="Home page tests" finished-at="2024-04-18T10:48:16 MDT" duration-ms="18103">
+      <class name="com.eWebShop_PW.tests.HomePageSrchTests">
+        <test-method is-config="true" signature="config()[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@6c7a164b]" started-at="2024-04-18T10:47:58 MDT" name="config" finished-at="2024-04-18T10:47:58 MDT" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@6c7a164b]" started-at="2024-04-18T10:47:58 MDT" name="setup" finished-at="2024-04-18T10:48:03 MDT" duration-ms="5086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchPrd_Test(java.lang.String)[pri:1, instance:com.eWebShop_PW.tests.HomePageSrchTests@6c7a164b]" started-at="2024-04-18T10:48:03 MDT" name="searchPrd_Test" data-provider="getProductData" finished-at="2024-04-18T10:48:04 MDT" duration-ms="709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Blue Jeans]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPrd_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@6c7a164b]" started-at="2024-04-18T10:48:04 MDT" name="tearDown" finished-at="2024-04-18T10:48:04 MDT" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@6c7a164b]" started-at="2024-04-18T10:48:04 MDT" name="setup" finished-at="2024-04-18T10:48:07 MDT" duration-ms="3344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchPrd_Test(java.lang.String)[pri:1, instance:com.eWebShop_PW.tests.HomePageSrchTests@6c7a164b]" started-at="2024-04-18T10:48:07 MDT" name="searchPrd_Test" data-provider="getProductData" finished-at="2024-04-18T10:48:08 MDT" duration-ms="653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50's Rockabilly Polka Dot Top JR Plus Size]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPrd_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@6c7a164b]" started-at="2024-04-18T10:48:08 MDT" name="tearDown" finished-at="2024-04-18T10:48:09 MDT" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@6c7a164b]" started-at="2024-04-18T10:48:09 MDT" name="setup" finished-at="2024-04-18T10:48:12 MDT" duration-ms="3193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="homePageTitle_Test()[pri:2, instance:com.eWebShop_PW.tests.HomePageSrchTests@6c7a164b]" started-at="2024-04-18T10:48:12 MDT" name="homePageTitle_Test" finished-at="2024-04-18T10:48:12 MDT" duration-ms="8" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Demo Web Shop. Login] but found [Demo Web Shop]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Demo Web Shop. Login] but found [Demo Web Shop]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.eWebShop_PW.tests.HomePageSrchTests.homePageTitle_Test(HomePageSrchTests.java:15)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitle_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@6c7a164b]" started-at="2024-04-18T10:48:12 MDT" name="tearDown" finished-at="2024-04-18T10:48:12 MDT" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@6c7a164b]" started-at="2024-04-18T10:48:12 MDT" name="setup" finished-at="2024-04-18T10:48:16 MDT" duration-ms="3533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="homePageURL_Test()[pri:3, instance:com.eWebShop_PW.tests.HomePageSrchTests@6c7a164b]" started-at="2024-04-18T10:48:16 MDT" name="homePageURL_Test" finished-at="2024-04-18T10:48:16 MDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageURL_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@6c7a164b]" started-at="2024-04-18T10:48:16 MDT" name="tearDown" finished-at="2024-04-18T10:48:16 MDT" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eWebShop_PW.tests.HomePageSrchTests -->
+    </test> <!-- Home page tests -->
+  </suite> <!-- RegressionSuite1 -->
+</testng-results>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [RegressionSuite1]" guice-stage="DEVELOPMENT" verbose="4">
+  <listeners>
+    <listener class-name="com.eWebShop_PW.reporting.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Home page tests(failed)" verbose="4">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.eWebShop_PW.tests.HomePageSrchTests">
+        <methods>
+          <include name="config"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="homePageTitle_Test"/>
+        </methods>
+      </class> <!-- com.eWebShop_PW.tests.HomePageSrchTests -->
+    </classes>
+  </test> <!-- Home page tests(failed) -->
+</suite> <!-- Failed suite [RegressionSuite1] -->

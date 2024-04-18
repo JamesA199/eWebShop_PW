@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "RegressionSuite1">
+
+	<test name = "Demo Webshop tests">
+   	<parameter name="browser" value="firefox" />
+      <classes>
+	      	<!--class name="com.SAPFiori.Tests.JEDocumentImpactValidateTotals_TC1"/>  	-->
+	      	<class name="com.eWebShop_PW.tests.HomePageTests"/>	
+      </classes>
+   </test>
+
+</suite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "RegressionSuite1">
+
+	<test name = "Demo Webshop tests">
+   	<parameter name="browser" value="chrome" />
+   	<groups>
+		<run>
+			<include name="DDT"></include>
+		</run>
+	</groups>  
+      <classes>
+	      	<class name="com.eWebShop_PW.tests.LoginPageTests"/>	
+	      	<class name="com.eWebShop_PW.tests.HomePageSrchTests"/>
+      </classes>
+   </test>
+
+</suite>
