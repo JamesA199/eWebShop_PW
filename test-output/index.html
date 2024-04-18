@@ -50,12 +50,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-RegressionSuite1" class="navigator-link ">
-                    <span>E:\My Projects\Development\automation\eclipsev2\eWebShop_PW\src\test\resources\testRunners\Testng_Chrome-ParallelTest.xml</span>
+                    <span>E:\My Projects\Development\automation\eclipsev2\eWebShop_PW\Testng_Chrome-Regression.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-RegressionSuite1" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -159,34 +159,9 @@
                   </a> <!-- homePageTitle_Test -->
                   <span class="method-name">homePageTitle_Test</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [Demo Web Shop. Login] but found [Demo Web Shop]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
 	at com.eWebShop_PW.tests.HomePageSrchTests.homePageTitle_Test(HomePageSrchTests.java:15)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -241,28 +216,23 @@
         </div> <!-- panel RegressionSuite1 -->
         <div panel-name="test-xml-RegressionSuite1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">E:\My Projects\Development\automation\eclipsev2\eWebShop_PW\src\test\resources\testRunners\Testng_Chrome-ParallelTest.xml</span>
+            <span class="header-content">E:\My Projects\Development\automation\eclipsev2\eWebShop_PW\Testng_Chrome-Regression.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;RegressionSuite1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;4&quot;&gt;
+&lt;suite name=&quot;RegressionSuite1&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.eWebShop_PW.reporting.ExtentReportListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Login tests&quot; verbose=&quot;4&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Demo Webshop tests&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.eWebShop_PW.tests.LoginPageTests&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Login tests --&gt;
-  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Home page tests&quot; verbose=&quot;4&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
-    &lt;classes&gt;
       &lt;class name=&quot;com.eWebShop_PW.tests.HomePageSrchTests&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Home page tests --&gt;
+  &lt;/test&gt; &lt;!-- Demo Webshop tests --&gt;
 &lt;/suite&gt; &lt;!-- RegressionSuite1 --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -274,10 +244,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Login tests (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Home page tests (1 class)</span>
+                <span class="test-name">Demo Webshop tests (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -307,15 +274,15 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'searchPrd_Test')
 data.setCell(0, 2, 'com.eWebShop_PW.tests.HomePageSrchTests')
-data.setCell(0, 3, 709);
+data.setCell(0, 3, 940);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'searchPrd_Test')
 data.setCell(1, 2, 'com.eWebShop_PW.tests.HomePageSrchTests')
-data.setCell(1, 3, 653);
+data.setCell(1, 3, 635);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'LoginNavigation_Test')
 data.setCell(2, 2, 'com.eWebShop_PW.tests.LoginPageTests')
-data.setCell(2, 3, 398);
+data.setCell(2, 3, 411);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'homePageTitle_Test')
 data.setCell(3, 2, 'com.eWebShop_PW.tests.HomePageSrchTests')
@@ -328,7 +295,7 @@ window.suiteTableData['RegressionSuite1']= { tableData: data, tableDiv: 'times-d
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-RegressionSuite1">
               </div> <!-- times-div-RegressionSuite1 -->
             </div> <!-- times-div -->
@@ -343,9 +310,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-RegressionSuite1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.eWebShop_PW.tests.HomePageSrchTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">config</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-RegressionSuite1" class="panel">
@@ -354,90 +328,75 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.eWebShop_PW.tests.HomePageSrchTests</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.eWebShop_PW.tests.LoginPageTests</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">config</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.eWebShop_PW.tests.LoginPageTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">67 ms</span>
+                <span class="method-start">58 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.eWebShop_PW.tests.HomePageSrchTests</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(chrome)</span>
-                <span class="method-start">67 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.eWebShop_PW.tests.LoginPageTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">LoginNavigation_Test</span>
-                <span class="method-start">4947 ms</span>
+                <span class="method-start">5136 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.eWebShop_PW.tests.HomePageSrchTests</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">searchPrd_Test(Blue Jeans)</span>
-                <span class="method-start">5153 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.eWebShop_PW.tests.LoginPageTests</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">5501 ms</span>
+                <span class="method-start">5551 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.eWebShop_PW.tests.HomePageSrchTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">5764 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchPrd_Test(Blue Jeans)</span>
+                <span class="method-start">9649 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">6080 ms</span>
+                <span class="method-start">10591 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">6287 ms</span>
+                <span class="method-start">10824 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">searchPrd_Test(50's Rockabilly Polka Dot Top JR Plus Size)</span>
-                <span class="method-start">9631 ms</span>
+                <span class="method-start">14803 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">10553 ms</span>
+                <span class="method-start">15440 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">10761 ms</span>
+                <span class="method-start">15651 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">homePageTitle_Test</span>
-                <span class="method-start">13954 ms</span>
+                <span class="method-start">19008 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">14070 ms</span>
+                <span class="method-start">19167 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">14277 ms</span>
+                <span class="method-start">19370 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">homePageURL_Test</span>
-                <span class="method-start">17810 ms</span>
+                <span class="method-start">22744 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17944 ms</span>
+                <span class="method-start">22749 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

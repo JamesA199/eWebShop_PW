@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-18T17:11:05 MDT" name="RegressionSuite1" finished-at="2024-04-18T17:11:26 MDT" duration-ms="20997">
+    <groups>
+    </groups>
+    <test started-at="2024-04-18T17:11:05 MDT" name="Demo Webshop tests" finished-at="2024-04-18T17:11:26 MDT" duration-ms="20997">
+      <class name="com.eWebShop_PW.tests.LoginPageTests">
+        <test-method is-config="true" signature="config()[pri:0, instance:com.eWebShop_PW.tests.LoginPageTests@c430e6c]" started-at="2024-04-18T17:11:05 MDT" name="config" finished-at="2024-04-18T17:11:05 MDT" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eWebShop_PW.tests.LoginPageTests@c430e6c]" started-at="2024-04-18T17:11:05 MDT" name="setup" finished-at="2024-04-18T17:11:09 MDT" duration-ms="4714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginNavigation_Test()[pri:0, instance:com.eWebShop_PW.tests.LoginPageTests@c430e6c]" started-at="2024-04-18T17:11:09 MDT" name="LoginNavigation_Test" finished-at="2024-04-18T17:11:10 MDT" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginNavigation_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.eWebShop_PW.tests.LoginPageTests@c430e6c]" started-at="2024-04-18T17:11:10 MDT" name="tearDown" finished-at="2024-04-18T17:11:10 MDT" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eWebShop_PW.tests.LoginPageTests -->
+      <class name="com.eWebShop_PW.tests.HomePageSrchTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@65987993]" started-at="2024-04-18T17:11:10 MDT" name="setup" finished-at="2024-04-18T17:11:13 MDT" duration-ms="3349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchPrd_Test(java.lang.String)[pri:1, instance:com.eWebShop_PW.tests.HomePageSrchTests@65987993]" started-at="2024-04-18T17:11:13 MDT" name="searchPrd_Test" data-provider="getProductData" finished-at="2024-04-18T17:11:14 MDT" duration-ms="636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Blue Jeans]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPrd_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@65987993]" started-at="2024-04-18T17:11:14 MDT" name="tearDown" finished-at="2024-04-18T17:11:14 MDT" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@65987993]" started-at="2024-04-18T17:11:14 MDT" name="setup" finished-at="2024-04-18T17:11:18 MDT" duration-ms="3507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchPrd_Test(java.lang.String)[pri:1, instance:com.eWebShop_PW.tests.HomePageSrchTests@65987993]" started-at="2024-04-18T17:11:18 MDT" name="searchPrd_Test" data-provider="getProductData" finished-at="2024-04-18T17:11:18 MDT" duration-ms="655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50's Rockabilly Polka Dot Top JR Plus Size]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPrd_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@65987993]" started-at="2024-04-18T17:11:18 MDT" name="tearDown" finished-at="2024-04-18T17:11:19 MDT" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@65987993]" started-at="2024-04-18T17:11:19 MDT" name="setup" finished-at="2024-04-18T17:11:22 MDT" duration-ms="3321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="homePageTitle_Test()[pri:2, instance:com.eWebShop_PW.tests.HomePageSrchTests@65987993]" started-at="2024-04-18T17:11:22 MDT" name="homePageTitle_Test" finished-at="2024-04-18T17:11:22 MDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitle_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@65987993]" started-at="2024-04-18T17:11:22 MDT" name="tearDown" finished-at="2024-04-18T17:11:22 MDT" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@65987993]" started-at="2024-04-18T17:11:22 MDT" name="setup" finished-at="2024-04-18T17:11:25 MDT" duration-ms="3340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="homePageURL_Test()[pri:3, instance:com.eWebShop_PW.tests.HomePageSrchTests@65987993]" started-at="2024-04-18T17:11:25 MDT" name="homePageURL_Test" finished-at="2024-04-18T17:11:25 MDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageURL_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@65987993]" started-at="2024-04-18T17:11:25 MDT" name="tearDown" finished-at="2024-04-18T17:11:26 MDT" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eWebShop_PW.tests.HomePageSrchTests -->
+    </test> <!-- Demo Webshop tests -->
+  </suite> <!-- RegressionSuite1 -->
+</testng-results>

@@ -1,5 +1,4 @@
 Manifest-Version: 1.0
-Built-By: write
-Build-Jdk: 20.0.2
+Build-Jdk-Spec: 20
 Created-By: Maven Integration for Eclipse
 
