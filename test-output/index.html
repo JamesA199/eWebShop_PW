@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-RegressionSuite1" class="navigator-link">
-              <span class="suite-name border-failed">RegressionSuite1</span>
+              <span class="suite-name border-passed">RegressionSuite1</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-RegressionSuite1" class="hide-methods failed suite-RegressionSuite1"> (hide)</a> <!-- hide-methods failed suite-RegressionSuite1 -->
-                      <a href="#" panel-name="suite-RegressionSuite1" class="show-methods failed suite-RegressionSuite1"> (show)</a> <!-- show-methods failed suite-RegressionSuite1 -->
-                    </span>
-                    <div class="method-list-content failed suite-RegressionSuite1">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-RegressionSuite1" title="com.eWebShop_PW.tests.HomePageSrchTests" class="method navigator-link" hash-for-method="homePageTitle_Test">homePageTitle_Test</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-RegressionSuite1 -->
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -118,6 +104,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-RegressionSuite1" title="com.eWebShop_PW.tests.LoginPageTests" class="method navigator-link" hash-for-method="LoginNavigation_Test">LoginNavigation_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite1" title="com.eWebShop_PW.tests.HomePageSrchTests" class="method navigator-link" hash-for-method="homePageTitle_Test">homePageTitle_Test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -147,26 +138,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-RegressionSuite1" class="panel RegressionSuite1">
-          <div class="suite-RegressionSuite1-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.eWebShop_PW.tests.HomePageSrchTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="homePageTitle_Test">
-                  </a> <!-- homePageTitle_Test -->
-                  <span class="method-name">homePageTitle_Test</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Demo Web Shop. Login] but found [Demo Web Shop]
-	at com.eWebShop_PW.tests.HomePageSrchTests.homePageTitle_Test(HomePageSrchTests.java:15)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-RegressionSuite1-class-failed -->
           <div class="suite-RegressionSuite1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -188,6 +159,13 @@
               <span class="class-name">com.eWebShop_PW.tests.HomePageSrchTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageTitle_Test">
+                  </a> <!-- homePageTitle_Test -->
+                  <span class="method-name">homePageTitle_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="homePageURL_Test">
@@ -274,23 +252,23 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'searchPrd_Test')
 data.setCell(0, 2, 'com.eWebShop_PW.tests.HomePageSrchTests')
-data.setCell(0, 3, 940);
+data.setCell(0, 3, 723);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'searchPrd_Test')
 data.setCell(1, 2, 'com.eWebShop_PW.tests.HomePageSrchTests')
-data.setCell(1, 3, 635);
+data.setCell(1, 3, 637);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'LoginNavigation_Test')
 data.setCell(2, 2, 'com.eWebShop_PW.tests.LoginPageTests')
-data.setCell(2, 3, 411);
+data.setCell(2, 3, 374);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'homePageTitle_Test')
 data.setCell(3, 2, 'com.eWebShop_PW.tests.HomePageSrchTests')
-data.setCell(3, 3, 8);
+data.setCell(3, 3, 5);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'homePageURL_Test')
 data.setCell(4, 2, 'com.eWebShop_PW.tests.HomePageSrchTests')
-data.setCell(4, 3, 3);
+data.setCell(4, 3, 4);
 window.suiteTableData['RegressionSuite1']= { tableData: data, tableDiv: 'times-div-RegressionSuite1'}
 return data;
 }
@@ -335,68 +313,66 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">58 ms</span>
+                <span class="method-start">57 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginNavigation_Test</span>
-                <span class="method-start">5136 ms</span>
+                <span class="method-start">4427 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">5551 ms</span>
+                <span class="method-start">4805 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.eWebShop_PW.tests.HomePageSrchTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">5764 ms</span>
+                <span class="method-start">4905 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">searchPrd_Test(Blue Jeans)</span>
-                <span class="method-start">9649 ms</span>
+                <span class="method-start">7999 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">10591 ms</span>
+                <span class="method-start">8723 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">10824 ms</span>
+                <span class="method-start">8819 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">searchPrd_Test(50's Rockabilly Polka Dot Top JR Plus Size)</span>
-                <span class="method-start">14803 ms</span>
+                <span class="method-start">11908 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15440 ms</span>
+                <span class="method-start">12547 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">15651 ms</span>
+                <span class="method-start">12632 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">homePageTitle_Test</span>
-                <span class="method-start">19008 ms</span>
+                <span class="method-start">15764 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">19167 ms</span>
+                <span class="method-start">15770 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">19370 ms</span>
+                <span class="method-start">15856 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">homePageURL_Test</span>
-                <span class="method-start">22744 ms</span>
+                <span class="method-start">19076 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">22749 ms</span>
+                <span class="method-start">19081 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
