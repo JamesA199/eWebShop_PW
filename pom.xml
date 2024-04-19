@@ -94,7 +94,7 @@
           <configuration>
 			<suiteXmlFiles>
 			<!--  TestNG suite XML files  -->
-			<suiteXmlFile>Testng_Chrome-Regression.xml</suiteXmlFile>
+			<suiteXmlFile>src/test/resources/testRunners/Testng_Chrome-Regression.xml</suiteXmlFile>
 			</suiteXmlFiles>
 			</configuration>
         </plugin>

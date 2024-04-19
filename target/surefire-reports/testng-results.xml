@@ -2,16 +2,16 @@
 <testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-18T20:28:35 MDT" name="RegressionSuite1" finished-at="2024-04-18T20:28:54 MDT" duration-ms="19632">
+  <suite started-at="2024-04-19T11:47:29 MDT" name="RegressionSuite1" finished-at="2024-04-19T11:47:52 MDT" duration-ms="22896">
     <groups>
     </groups>
-    <test started-at="2024-04-18T20:28:35 MDT" name="Demo Webshop tests" finished-at="2024-04-18T20:28:54 MDT" duration-ms="19632">
+    <test started-at="2024-04-19T11:47:29 MDT" name="Demo Webshop tests" finished-at="2024-04-19T11:47:52 MDT" duration-ms="22896">
       <class name="com.eWebShop_PW.tests.LoginPageTests">
-        <test-method is-config="true" signature="config()[pri:0, instance:com.eWebShop_PW.tests.LoginPageTests@8519cb4]" started-at="2024-04-18T20:28:35 MDT" name="config" finished-at="2024-04-18T20:28:35 MDT" duration-ms="38" status="PASS">
+        <test-method is-config="true" signature="config()[pri:0, instance:com.eWebShop_PW.tests.LoginPageTests@8519cb4]" started-at="2024-04-19T11:47:29 MDT" name="config" finished-at="2024-04-19T11:47:29 MDT" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eWebShop_PW.tests.LoginPageTests@8519cb4]" started-at="2024-04-18T20:28:35 MDT" name="setup" finished-at="2024-04-18T20:28:39 MDT" duration-ms="4522" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eWebShop_PW.tests.LoginPageTests@8519cb4]" started-at="2024-04-19T11:47:29 MDT" name="setup" finished-at="2024-04-19T11:47:34 MDT" duration-ms="5195" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,17 +22,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginNavigation_Test()[pri:0, instance:com.eWebShop_PW.tests.LoginPageTests@8519cb4]" started-at="2024-04-18T20:28:39 MDT" name="LoginNavigation_Test" finished-at="2024-04-18T20:28:40 MDT" duration-ms="377" status="PASS">
+        <test-method signature="LoginNavigation_Test()[pri:0, instance:com.eWebShop_PW.tests.LoginPageTests@8519cb4]" started-at="2024-04-19T11:47:34 MDT" name="LoginNavigation_Test" finished-at="2024-04-19T11:47:35 MDT" duration-ms="373" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginNavigation_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.eWebShop_PW.tests.LoginPageTests@8519cb4]" started-at="2024-04-18T20:28:40 MDT" name="tearDown" finished-at="2024-04-18T20:28:40 MDT" duration-ms="92" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.eWebShop_PW.tests.LoginPageTests@8519cb4]" started-at="2024-04-19T11:47:35 MDT" name="tearDown" finished-at="2024-04-19T11:47:35 MDT" duration-ms="113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.eWebShop_PW.tests.LoginPageTests -->
       <class name="com.eWebShop_PW.tests.HomePageSrchTests">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-18T20:28:40 MDT" name="setup" finished-at="2024-04-18T20:28:43 MDT" duration-ms="3314" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-19T11:47:35 MDT" name="setup" finished-at="2024-04-19T11:47:38 MDT" duration-ms="3464" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchPrd_Test(java.lang.String)[pri:1, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-18T20:28:43 MDT" name="searchPrd_Test" data-provider="getProductData" finished-at="2024-04-18T20:28:44 MDT" duration-ms="631" status="PASS">
+        <test-method signature="searchPrd_Test(java.lang.String)[pri:1, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-19T11:47:38 MDT" name="searchPrd_Test" data-provider="getProductData" finished-at="2024-04-19T11:47:39 MDT" duration-ms="638" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,11 +54,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchPrd_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-18T20:28:44 MDT" name="tearDown" finished-at="2024-04-18T20:28:44 MDT" duration-ms="92" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-19T11:47:39 MDT" name="tearDown" finished-at="2024-04-19T11:47:39 MDT" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-18T20:28:44 MDT" name="setup" finished-at="2024-04-18T20:28:47 MDT" duration-ms="3239" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-19T11:47:39 MDT" name="setup" finished-at="2024-04-19T11:47:43 MDT" duration-ms="3626" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchPrd_Test(java.lang.String)[pri:1, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-18T20:28:47 MDT" name="searchPrd_Test" data-provider="getProductData" finished-at="2024-04-18T20:28:48 MDT" duration-ms="612" status="PASS">
+        <test-method signature="searchPrd_Test(java.lang.String)[pri:1, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-19T11:47:43 MDT" name="searchPrd_Test" data-provider="getProductData" finished-at="2024-04-19T11:47:44 MDT" duration-ms="634" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -80,11 +80,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchPrd_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-18T20:28:48 MDT" name="tearDown" finished-at="2024-04-18T20:28:48 MDT" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-19T11:47:44 MDT" name="tearDown" finished-at="2024-04-19T11:47:44 MDT" duration-ms="94" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-18T20:28:48 MDT" name="setup" finished-at="2024-04-18T20:28:51 MDT" duration-ms="3166" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-19T11:47:44 MDT" name="setup" finished-at="2024-04-19T11:47:47 MDT" duration-ms="3317" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -95,15 +95,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="homePageTitle_Test()[pri:2, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-18T20:28:51 MDT" name="homePageTitle_Test" finished-at="2024-04-18T20:28:51 MDT" duration-ms="5" status="PASS">
+        <test-method signature="homePageTitle_Test()[pri:2, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-19T11:47:47 MDT" name="homePageTitle_Test" finished-at="2024-04-19T11:47:47 MDT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTitle_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-18T20:28:51 MDT" name="tearDown" finished-at="2024-04-18T20:28:51 MDT" duration-ms="77" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-19T11:47:48 MDT" name="tearDown" finished-at="2024-04-19T11:47:48 MDT" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-18T20:28:51 MDT" name="setup" finished-at="2024-04-18T20:28:54 MDT" duration-ms="3307" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-19T11:47:48 MDT" name="setup" finished-at="2024-04-19T11:47:52 MDT" duration-ms="4070" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -114,11 +114,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="homePageURL_Test()[pri:3, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-18T20:28:54 MDT" name="homePageURL_Test" finished-at="2024-04-18T20:28:54 MDT" duration-ms="3" status="PASS">
+        <test-method signature="homePageURL_Test()[pri:3, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-19T11:47:52 MDT" name="homePageURL_Test" finished-at="2024-04-19T11:47:52 MDT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageURL_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-18T20:28:54 MDT" name="tearDown" finished-at="2024-04-18T20:28:54 MDT" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.eWebShop_PW.tests.HomePageSrchTests@909217e]" started-at="2024-04-19T11:47:52 MDT" name="tearDown" finished-at="2024-04-19T11:47:52 MDT" duration-ms="95" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
