@@ -91,7 +91,7 @@
 	        <version>2.20</version>
 	        <configuration>
 	        <forkCount>3</forkCount>
-	        <reuseForks>3</reuseForks>
+	        <reuseForks>true</reuseForks>
 	        <argLines>-Xmx1024m -XX:MaxPermSize=256m</argLines>
 	          <suiteXmlFiles>
 	            <suiteXmlFile>src/test/resources/testRunners/Testng_Chrome-Regression.xml</suiteXmlFile>

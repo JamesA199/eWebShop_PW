@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Paths;
+import java.util.Base64;
 import java.util.Properties;
 
 import com.microsoft.playwright.Browser;
@@ -173,23 +174,28 @@ public class FactoryPg
 	}
 	
 	public static String takeScreenshot() {
+		//use for viewing screenshots in jenkins
+		String base64Path = null;
 		String path = System.getProperty("user.dir") + "/screenshot/" + System.currentTimeMillis() + ".png";
 		String paralleltest = prop.getProperty("paralleltest");
 		System.out.println(paralleltest);
 		if (prop.getProperty("paralleltest").equals("yes")) {
-		
-			getPage().screenshot(new Page.ScreenshotOptions() //getPage threadlocal...allows screenshots on multiple browser
-					   .setPath(Paths.get(path))
-					   .setFullPage(false));
-
+			//getPage threadlocal...allows screenshots on multiple browser
+			//getPage().screenshot(new Page.ScreenshotOptions().setPath(Paths.get(path)).setFullPage(false));
+			
+			//getPage threadlocal...allows screenshots on multiple browser
+			//for viewing screenshots in jenkins need to use base64 
+			byte[] buffer = getPage().screenshot(new Page.ScreenshotOptions().setPath(Paths.get(path)).setFullPage(false));
+			base64Path = Base64.getEncoder().encodeToString(buffer);
 		}
 		else if (prop.getProperty("paralleltest").equals("no"))
 		{
 			System.out.println("screenshot taken");
 			try {
-				page.screenshot(new Page.ScreenshotOptions()
-						   .setPath(Paths.get(path))
-						   .setFullPage(false));
+				//page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get(path)).setFullPage(false));
+				//for viewing screenshots in jenkins need to use base64 
+				byte[] buffer = page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get(path)).setFullPage(false));
+				base64Path = Base64.getEncoder().encodeToString(buffer);
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -198,7 +204,10 @@ public class FactoryPg
 		else {
 			System.out.println("no screenshot taken");
 		}
-		return path;
+		
+		//return path;
+		//return base64Path to view screenshots in jenkins
+		return base64Path;
 	}
 	
 }

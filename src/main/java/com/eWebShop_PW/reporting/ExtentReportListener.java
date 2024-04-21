@@ -88,7 +88,10 @@ public class ExtentReportListener implements ITestListener {
 		test.get().pass("Test Passed");
 		
 		if (FactoryPg.init_prop().getProperty("screenshotstep").equals("yes")) {
-			test.get().pass(result.getThrowable(), MediaEntityBuilder.createScreenCaptureFromPath(takeScreenshot()).build());
+			//test.get().pass(result.getThrowable(), MediaEntityBuilder.createScreenCaptureFromPath(takeScreenshot()).build());
+			//need base64 for viewing screenshots in jenkins
+			test.get().pass(result.getThrowable(), MediaEntityBuilder.createScreenCaptureFromBase64String(takeScreenshot(), result.getMethod().getMethodName()).build());
+			
 		}
 		
 		test.get().getModel().setEndTime(getTime(result.getEndMillis()));
@@ -97,14 +100,23 @@ public class ExtentReportListener implements ITestListener {
 	public synchronized void onTestFailure(ITestResult result) {
 		System.out.println(result.getMethod().getMethodName() + " Failed!");
 		test.get().pass("Test Failed");
-		test.get().fail(result.getThrowable(), MediaEntityBuilder.createScreenCaptureFromPath(takeScreenshot()).build());
+		//test.get().fail(result.getThrowable(), MediaEntityBuilder.createScreenCaptureFromPath(takeScreenshot()).build());
+		//need base64 for viewing screenshots in jenkins
+		test.get().fail(result.getThrowable(), MediaEntityBuilder.createScreenCaptureFromBase64String(takeScreenshot(), result.getMethod().getMethodName()).build());
+
+		
 		test.get().getModel().setEndTime(getTime(result.getEndMillis()));
 	}
 
 	public synchronized void onTestSkipped(ITestResult result) {
 		System.out.println(result.getMethod().getMethodName() + " Skipped!");
 		test.get().pass("Test Skipped");
-		test.get().skip(result.getThrowable(), MediaEntityBuilder.createScreenCaptureFromPath(takeScreenshot()).build());
+		//test.get().skip(result.getThrowable(), MediaEntityBuilder.createScreenCaptureFromPath(takeScreenshot()).build());
+		
+		//need base64 for viewing screenshots in jenkins
+		test.get().skip(result.getThrowable(), MediaEntityBuilder.createScreenCaptureFromBase64String(takeScreenshot(), result.getMethod().getMethodName()).build());
+
+		
 		test.get().getModel().setEndTime(getTime(result.getEndMillis()));
 	}	
 	
